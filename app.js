@@ -5,8 +5,6 @@ const mongoose = require('mongoose');
 const session = require('express-session');
 const middleware = require('./middleware');
 
-
-// ********** Using Modules **********
 const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.set('view engine', 'ejs');

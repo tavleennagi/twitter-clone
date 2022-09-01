@@ -147,7 +147,7 @@ body {
 }
 
 .selected-post {
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     margin-bottom: 10px;
     border-radius: 10px;
 }
@@ -390,7 +390,7 @@ textarea:focus-within {
 }
 
 .post.big{
-    background-color: #cde6f5;
+    background-color: #2c3134;
 }
 .highlights-container{
     padding-left: 50px;
